@@ -7,5 +7,5 @@ class MiClase
     end
 end
 
-MiClase.de_instancia
-MiClase.new.de_clase
+MiClase.new.de_instancia
+MiClase.de_clase
