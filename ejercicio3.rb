@@ -21,9 +21,15 @@
       puts 'El motor se ha encendido'
     end
   end
-  puts Cars.new('model', 'year')
-end
-   puts Cars.get_number_of_instances
+
+  puts Cars.new('auto', '1998')
+  10.times do |i|
+    model = 'modelo #{i}'
+    year =  1998 + i
+    Cars.new(model, year)
+  end
+   p Cars.get_number_of_instances
+ end
   # #class T
   #  #@@instances = 0
   # #def initialize()
