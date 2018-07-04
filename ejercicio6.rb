@@ -13,6 +13,9 @@
 # Crear 10 objetos de la clase Student y utilizar los métodos creados para saber si los alumnos están aprobados o no y, finalmente, mostrar el total de alumnos creados.
 module Test
   def result(calif1, calif2)
+    prom = (calif1 + calif2) / 2
+     'Estudiante aprobado' if prom >= 4
+     'Estudiante reprobado' if prom < 4
   end
 module Attendance
   def student_quantity
@@ -35,4 +38,7 @@ attr_accessor
 end
 
   end
+students = []
+10.times do |i|
+  
 end
